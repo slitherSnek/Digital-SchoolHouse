@@ -72,12 +72,133 @@ ul li a:hover {
 .info a:hover{
     background: rgb(0, 140, 255);
 }
+.main {
+    
+    width: 100%;
+    height: auto;
+    background: url(Yawa.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.navbar{
+    
+    width: 90%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+
+}
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: -3%;
+    color: rgb(0, 0, 0);
+    transition: .4s ease;
+}
+ul li a:hover {
+    color: rgb(0, 240, 255);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(26, 25, 25);
+}
+
+.info h3{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+.info span {
+    color: rgb(255, 136, 0); 
+}
+.info a {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(39, 0, 27); 
+    margin: 26px 8px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 12px 20px; 
+    font-size: 18px;
+    transition: .4s ease;
+}
+.info a:hover{
+    background: rgb(0, 140, 255);
+}
+
 .image {
-    width: 0%;
-    height: 60%;
     position: absolute;
-    right: 170px;
+    bottom: 70;
+    right: 190px;    
+
+.sarambaw {
+    max-width: 400px;
+    height: auto;
+  }
+}
+
+.image img {
+
+    position: absolute;
+    height: 100%;
+    left: 48%;
+    transform: translate(-55%);
     bottom: 0;
+    transition: left 2s ease; 
+}
+
+.icons ion-icon{
+    margin-left: 6%;
+    color: #000;
+    margin-right: -60px;
+    font-size: 30px;
+    transition: .4s ease;
+    
+}
+
+.icons ion-icon:hover{
+    color: rgb(59,174,209);
+}
+.made{
+    margin-right: 40%;
+}
+.contact{
+    margin-top: 0%;
+    margin-right: 40%;
+}
+.glenn{
+    
+    margin-top: 0;
+    margin-right: 80%;
+}
+@media (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+    .image {
+        width: 100%;
+    }
+
 }
 
 
