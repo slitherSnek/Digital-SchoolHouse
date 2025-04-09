@@ -1,11 +1,11 @@
 .main {
-    
-    width: 100vw;
-    background: url(Yawa.jpg.jpg);
+    width: 100%;
     background-position: center;
     background-size: cover;
-    height: 100vh;
+    position: relative;
     font-family: sans-serif;
+    background: url(Yawa.jpg.jpg);
+    
 }
 .navbar{
     
