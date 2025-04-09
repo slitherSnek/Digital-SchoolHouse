@@ -73,12 +73,13 @@ ul li a:hover {
     background: rgb(0, 140, 255);
 }
 .image {
-    width: 30%;
+    width: 0%;
     height: 60%;
     position: absolute;
-    right: 100px;
+    right: 170px;
     bottom: 0;
 }
+
 
 .image img {
 
