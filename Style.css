@@ -1,10 +1,11 @@
 .main {
     
     width: 100%;
-    height: auto;
     background: url(Yawa.jpg.jpg);
     background-position: center;
     background-size: cover;
+    height: auto;
+    position: relative;
     font-family: sans-serif;
 }
 .navbar{
@@ -72,15 +73,13 @@ ul li a:hover {
     background: rgb(0, 140, 255);
 }
 .image {
+    width: 30%;
+    height: 60%;
     position: absolute;
-    bottom: 70;
-    right: 190px;    
-
-.sarambaw {
-    max-width: 400px;
-    height: auto;
-  }
+    right: 100px;
+    bottom: 0;
 }
+
 .image img {
 
     position: absolute;
@@ -89,6 +88,10 @@ ul li a:hover {
     transform: translate(-55%);
     bottom: 0;
     transition: left 2s ease; 
+}
+
+.image:hover .sarambaw {
+    left: 55%; 
 }
 
 .icons ion-icon{
@@ -114,13 +117,4 @@ ul li a:hover {
     
     margin-top: 0;
     margin-right: 80%;
-}
-@media (max-width: 768px) {
-    .container {
-      width: 90%;
-    }
-    .image {
-        width: 100%;
-    }
-
 }
