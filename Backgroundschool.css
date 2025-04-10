@@ -22,7 +22,7 @@
     padding: 20px;
     text-align: center;
     width: 30%;
-    margin: 10px; /* Add margin for spacing */
+    margin: 10px; 
 }
 
 .title {
@@ -50,12 +50,15 @@
     margin: auto;
     padding: 15px 0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap; 
 }
 
 ul {
     margin-top: -2%;
+    display: flex; 
+    justify-content: center; 
+    padding: 0;
 }
 
 ul li {
@@ -171,7 +174,7 @@ iframe {
     color: #6338c8;
 }
 
-/* Media Queries for Responsive Design */
+
 @media (max-width: 600px) {
     .container {
         flex-direction: column; 
@@ -179,8 +182,8 @@ iframe {
     }
 
     .section {
-        width: 90%; /* Full width on mobile */
-        margin: 10px 0; /* Add vertical margin */
+        width: 90%; 
+        margin: 10px 0; 
     }
 
     .navbar {
