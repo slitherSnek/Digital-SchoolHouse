@@ -78,21 +78,6 @@ ul li a:hover {
     background: rgb(0, 140, 255);
 }
 
-.image {
-    width: 30%;
-    height: 60%;
-    position: absolute;
-    right: 100px;
-    bottom: 0;
-}
-
-.image img {
-    position: absolute;
-    height: 100%;
-    left: 48%;
-    transform: translate(-55%);
-    bottom: 0;
-}
 
 .icons {
     display: flex;
