@@ -34,6 +34,7 @@
 .points {
     list-style: disc;
     margin-left: 20px;
+    padding: 0;
 }
 
 .points li {
@@ -188,3 +189,6 @@ iframe {
 
     .navbar {
         flex-direction: column; 
+    }
+}
+    
